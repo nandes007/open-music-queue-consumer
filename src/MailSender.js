@@ -6,7 +6,7 @@ class MailSender {
       host: process.env.SMTP_HOST,
       port: process.env.SMTP_PORT,
       auth: {
-        user: process.env.SMTP_USER,
+        user: process.env.MAIL_ADDRESS,
         pass: process.env.SMTP_PASSWORD
       }
     })
